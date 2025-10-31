@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import './App.css'
-import { ThemeProvider } from './Contexts/theme'
+import { ThemeProvider } from './Contexts/theme.js'
 import ThemeBtn from './components/ThemeButton'
 import Card from './components/card'
 
@@ -43,4 +43,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
